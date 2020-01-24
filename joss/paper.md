@@ -34,14 +34,14 @@ Additionally, the high spatial resolution provided by altimeter data is particul
 
 ![An example of wave analysis perform with RADWave and its plotting capabilities.\label{fig:example}](fig1.jpg)
 
-**RADWave** is Python package that provides a mechanism to access altimeter datasets through web-enabled data services (THREDDS). The package capabilities are illustrated based on the the Australian Ocean Data Network global database [@Ribal:2019]. **RADWave** allows to query over a range of spatial and temporal scales altimeter parameters in specific geographical regions and subsequently calculates significant wave heights, periods, group velocities, average wave energy densities and wave energy fluxes.
+**RADWave** is a Python package that provides a mechanism to access altimeter datasets through web-enabled data services (THREDDS). The package capabilities are illustrated based on the the Australian Ocean Data Network global database [@Ribal:2019]. **RADWave** allows to query over a range of spatial and temporal scales altimeter parameters in specific geographical regions and subsequently calculates significant wave heights, periods, group velocities, average wave energy densities and wave energy fluxes.
 
 **RADWave** can be used to easily calculate past wave conditions and infers long term wave climate variability, providing new insights on wave modal conditions, seasonal changes, long-term trends and associated modulation by climate oscillations. It can also be used to assess locally the impact of wave-generated cyclones in offshore areas.
 
 Along with the documentation a series of Jupyter Notebooks are presented to illustrate the package capability. **RADWave** enhances the ease of access and analysis of altimeter data and is designed for researchers and industry focusing on offshore wave conditions globally. To the authors' knowledge, no open-source code currently exists that provides such capability.
 
 
-**RADWave** is currently been applied for the characterisation of wave climate and extreme events offshore the Great Barrier Reef and to determine the magnitude and resulting impacts of extreme wave events offshore One Tree Island, Great Barrier Reef.
+**RADWave** is currently being applied for the characterisation of wave climate and extreme events offshore the Great Barrier Reef and to determine the magnitude and resulting impacts of extreme wave events offshore One Tree Island, Great Barrier Reef.
 
 # Acknowledgements
 
