@@ -24,9 +24,9 @@ bibliography: paper.bib
 
 # Summary
 
-Satellite radar altimetry is an excellent remote sensing technique that can be used to determine significant wave height and wind speed [@Chelton:2001]. These measurements can be used to calculate wave height, period and power [@Young:2018].
+Satellite radar altimetry is an excellent remote sensing technique that can be used to determine significant wave height and wind speed [@Chelton:2001]. These measurements can be used in conjunction with one another to calculate wave height, period and power [@Young:2018].
 
-Since the first launch of the *GEOSAT* altimeter in 1985, there has been almost continuous data collection, with only a small gap between 1989-1992 due to no operating satellites. Consequently, analysis of this long-term temporal record provides new insights in inter-annual, seasonal and decadal variation in wave statistics.
+Since the first launch of the *GEOSAT* altimeter in 1985, there has been almost continuous data collection, with only a small gap between 1989-1992 due to no operating satellites [@Chelton:2001]. Consequently, analysis of this long-term temporal record provides new insights in inter-annual, seasonal and decadal variation in wave statistics.
 
 Additionally, the high spatial resolution provided by altimeter data is particularly well-suited for remote regions, or locations where no long-term measurements exist [@Ribal:2019]. An extensive global database of all altimeter missions spanning from 1985-present is available on the Australian Ocean Data Network and has been compiled, calibrated and validated by [@Ribal:2019]. However, for many users, this dataset can be difficult to analyse and only provides significant wave height and wind speed.
 
@@ -34,7 +34,7 @@ Additionally, the high spatial resolution provided by altimeter data is particul
 
 ![An example of wave analysis perform with RADWave and its plotting capabilities.\label{fig:example}](fig1.jpg)
 
-**RADWave** is Python package that provides a mechanism to access altimeter datasets through web-enabled data services (THREDDS). The package capabilities are illustrated based on the the Australian Ocean Data Network global database [@Ribal:2019]. **RADWave** allows  the user to query over a range of spatial and temporal scales altimeter parameters in specific geographical regions and subsequently calculates significant wave heights, periods, group velocities, average wave energy densities and wave energy fluxes.
+**RADWave** is Python package that provides a mechanism to access altimeter datasets through web-enabled data services (THREDDS). The package capabilities are illustrated based on the the Australian Ocean Data Network global database [@Ribal:2019]. **RADWave** allows the user to query wave parameters over a range of spatial and temporal scales,subsequently calculating significant wave heights, periods, group velocities, average wave energy densities and wave energy fluxes.
 
 While domain experts are able to assess satellite radar altimetry datasets, they currently have to download the data manually and write custom analysis and visualization functions using, e.g., numpy, pandas, and matplotlib to extract wave characteristics. **RADWave** combines this all into a simple object-oriented framework.
 
